@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="textNome">Insira seu nome</string>
+    <string name="textEmail">Insira seu e-mail</string>
+    <string name="textTel">Insira seu telefone</string>
+    <string name="textSen">Insira sua senha</string>
+    <string name="textConf">Confirme sua senha</string>
+    <string name="btn1">Cadastrar</string>
+    <string name="rdb1">Masculino</string>
+    <string name="rdb2">Feminino</string>
+    <string-array name="spn">
+        <item>Solteira(o)</item>
+        <item>Casada(o)</item>
+        <item>Viúva(o)</item>
+    </string-array>
+</resources>
