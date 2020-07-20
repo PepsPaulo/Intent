@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">Intent</string>
+    <string name="txt1">Nome:</string>
+    <string name="txt2">Gênero:</string>
+    <string name="txt3">Estado Civil:</string>
+    <string name="txt4">E-mail:</string>
+    <string name="txt5">Telefone:</string>
+    <string name="txt6">Senha:</string>
+    <string name="txt7">Confirmar senha:</string>
+    <string name="txt8">TEATRO</string>
+    <string name="txt9">CADASTRO</string>
+    <string name="txt10">Dados da Conta</string>
     <string name="textNome">Insira seu nome</string>
     <string name="textEmail">Insira seu e-mail</string>
     <string name="textTel">Insira seu telefone</string>

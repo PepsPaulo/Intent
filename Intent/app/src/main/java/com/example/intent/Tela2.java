@@ -20,19 +20,16 @@ public class Tela2 extends AppCompatActivity {
         TextView estadocivil = findViewById(R.id.textEstCiv);
         TextView email = findViewById(R.id.textEmail);
         TextView telefone = findViewById(R.id.textTel);
-        TextView senha = findViewById(R.id.textSen);
 
         String n = extras.getString(MainActivity.EXTRA_MESSAGE_NOME);
         String g = extras.getString(MainActivity.EXTRA_MESSAGE_GENERO);
         String ec = extras.getString(MainActivity.EXTRA_MESSAGE_ESTADOCIVIL);
         String e = extras.getString(MainActivity.EXTRA_MESSAGE_EMAIL);
         String t = extras.getString(MainActivity.EXTRA_MESSAGE_TELEFONE);
-        String s = extras.getString(MainActivity.EXTRA_MESSAGE_SENHA);
         nome.setText(n);
         genero.setText(g);
         estadocivil.setText(ec);
         email.setText(e);
         telefone.setText(t);
-        senha.setText(s);
     }
 }

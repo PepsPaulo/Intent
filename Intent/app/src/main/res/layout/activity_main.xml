@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/txt1"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_weight="1"
-        android:text="Nome:"
+        android:text="@string/txt1"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,23 +32,24 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toEndOf="@+id/txt1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
+        app:layout_constraintVertical_bias="0.356"
+        android:autofillHints="" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/txt4"
         android:layout_width="90dp"
         android:layout_height="40dp"
         android:layout_weight="1"
-        android:text="E-mail:"
+        android:text="@string/txt4"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/txt3"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
@@ -62,40 +63,25 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/txt4"
         app:layout_constraintTop_toBottomOf="@+id/spn"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/textTel"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_weight="1"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/textTel"
         android:inputType="phone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toEndOf="@+id/txt5"
         app:layout_constraintTop_toBottomOf="@+id/textEmail"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:layout_weight="1"
-        android:password="false"
-        android:phoneNumber="false"
-        android:text="Telefone:"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.168"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
@@ -109,9 +95,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/txt6"
         app:layout_constraintTop_toBottomOf="@+id/textTel"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/textConf"
@@ -126,38 +113,40 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/txt7"
         app:layout_constraintTop_toBottomOf="@+id/textSen"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints="" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/txt7"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_weight="1"
-        android:text="Confirmar senha:"
+        android:text="@string/txt7"
         android:textColor="@android:color/black"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/txt6"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/txt6"
         android:layout_width="90dp"
         android:layout_height="40dp"
+        android:layout_marginBottom="52dp"
         android:layout_weight="1"
-        android:text="Senha:"
+        android:text="@string/txt6"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/txt5"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -175,17 +164,17 @@
         app:layout_constraintVertical_bias="0.145" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txt2"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:text="Gênero:"
+        android:text="@string/txt2"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.221"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/txt1"
         app:layout_constraintVertical_bias="0.0" />
 
     <Spinner
@@ -201,38 +190,38 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txt3"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:text="Estado Civil:"
+        android:text="@string/txt3"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/txt2"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txt8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TEATRO"
+        android:text="@string/txt8"
         android:textColor="@android:color/black"
         android:textSize="36sp"
         app:fontFamily="sans-serif-black"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/txt9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.436" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txt9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CADASTRO"
+        android:text="@string/txt9"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -249,7 +238,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/txt2"
         app:layout_constraintTop_toBottomOf="@+id/textNome"
         app:layout_constraintVertical_bias="0.0">
 
@@ -267,5 +256,19 @@
             android:text="@string/rdb2" />
 
     </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/txt5"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt4"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
